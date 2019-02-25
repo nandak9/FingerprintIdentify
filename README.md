@@ -10,7 +10,7 @@ MeiZu SDK：minimum support for Android **5.1** [(more detail)](http://open-wiki
 
 Api priority level：Android > Samsung > MeiZu
 
-[中文版介绍 -- 传送门](https://github.com/uccmawei/FingerprintIdentify/blob/master/other/README_ZH.md)
+(https://github.com/uccmawei/FingerprintIdentify/blob/master/other/README_ZH.md)
 
 [![](https://github.com/uccmawei/FingerprintIdentify/raw/master/other/QRCode_en.png)](https://github.com/uccmawei/FingerprintIdentify/raw/master/other/demo.apk)
 
@@ -67,7 +67,7 @@ Api priority level：Android > Samsung > MeiZu
 
     -ignorewarnings
 
-    # MeiZuFingerprint
+    # Fingerprint
     -keep class com.fingerprints.service.** { *; }
     
     # SmsungFingerprint
@@ -77,7 +77,7 @@ Api priority level：Android > Samsung > MeiZu
 
     1. Usually, device will be locked temporarily when read incorrect fingerprints continuously 5 times.
        And it need to takes about 30 seconds to get back to normal.
-       But it's not standardized, MeiZu SDK has no limit to this.
+       But it's not standardized, SDK has no limit to this.
 
     2. About 'com.android.support:appcompat-v7:25.3.1' version
        The class FingerprintManagerCompatApi23 will check the feature FEATURE_FINGERPRINT from version 25.
@@ -87,9 +87,9 @@ Api priority level：Android > Samsung > MeiZu
        which version less than Android M, such as OPPO.
        But the API will be modified sometimes and cause calling crash, such as VIVO.
 
-    4. We need to check the manufacturers because Meizu's sdk is available on some other devices.
+    4. We need to check the manufacturers because sdk is available on some other devices.
 
-    5. MeiZu's SDK runs abnormally on MeiLan Note3 sometimes, it can't switch to mback mode event called release。
+    5. SDK runs abnormally on Note3 sometimes, it can't switch to mback mode event called release。
 
 **7. Version Update**
 
