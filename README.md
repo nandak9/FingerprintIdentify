@@ -91,38 +91,6 @@ Api priority level：Android > Samsung > MeiZu
 
     5. SDK runs abnormally on Note3 sometimes, it can't switch to mback mode event called release。
 
-**7. Version Update**
-
-**v1.2.6**　`2018.12.11`　Support AndroidX android.enableJetifier=true.
-
-**v1.2.5**　`2018.11.20`　minSdkVersion 21 -> 14.
-
-**v1.2.4**　`2018.11.16`　cancelIdentify will not call onFailed.
-
-**v1.2.3**　`2018.11.15`　Migrate to AndroidX. Support Android L. Support custom identify implementation.
-
-**v1.2.1**　`2017.07.25`　Add new callback onStartFailedByDeviceLocked.
-
-**v1.2.0**　`2017.07.10`　Add android M limit. Add new callback parameter to notice is that device locked temporarily。
-
-**v1.1.5**　`2017.06.14`　~~FingerprintIdentify(Activity)~~ --> FingerprintIdentify(Context).
-
-**v1.1.4**　`2017.05.24`　Remove android M limit, add MeiZu manufacturer verify. See [ISSUE#12](https://github.com/uccmawei/FingerprintIdentify/issues/12)
-
-**v1.1.3**　`2017.05.22`　Update the method getFingerprintManager. See [ISSUE#11](https://github.com/uccmawei/FingerprintIdentify/issues/11)
-
-**v1.1.2**　`2017.04.25`　Modify AOSP's code，avoid the PackageManager.FEATURE_FINGERPRINT limit.
-
-**v1.1.1**　`2017.03.20`　Modify gradle AppCompat lib version.
-
-**v1.1.0**　`2017.03.16`　Modify package name and bug fixed.
-
-**v1.0.2**　`2017.02.17`　Add exception callback.
-
-**v1.0.1**　`2017.02.15`　Bug fixed.
-
-**v1.0.0**　`2017.02.10`　Release v1.
-
 ## License ##
 
 Licensed under the MIT License, see the [LICENSE](https://github.com/uccmawei/FingerprintIdentify/blob/master/LICENSE) for copying permission.
