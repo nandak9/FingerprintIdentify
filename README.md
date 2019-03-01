@@ -1,19 +1,5 @@
 # FingerprintIdentify
 
-This is an expandable Android fingerprint api compatible lib, which also combine these api:
-
-Android API：minimum support for Android **6.0** [(more detail)](https://developer.android.com/reference/android/support/v4/hardware/fingerprint/FingerprintManagerCompat.html)
-
-SamSung SDK：minimum support for Android **4.2** [(more detail)](http://developer.samsung.com/galaxy/pass#)
-
-MeiZu SDK：minimum support for Android **5.1** [(more detail)](http://open-wiki.flyme.cn/index.php?title=%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%ABAPI)
-
-Api priority level：Android > Samsung > MeiZu
-
-(https://github.com/uccmawei/FingerprintIdentify/blob/master/other/README_ZH.md)
-
-[![](https://github.com/uccmawei/FingerprintIdentify/raw/master/other/QRCode_en.png)](https://github.com/uccmawei/FingerprintIdentify/raw/master/other/demo.apk)
-
 **1. Gradle**
 
     compile 'com.wei.android.lib:fingerprintidentify:1.2.6'
@@ -90,7 +76,3 @@ Api priority level：Android > Samsung > MeiZu
     4. We need to check the manufacturers because sdk is available on some other devices.
 
     5. SDK runs abnormally on Note3 sometimes, it can't switch to mback mode event called release。
-
-## License ##
-
-Licensed under the MIT License, see the [LICENSE](https://github.com/uccmawei/FingerprintIdentify/blob/master/LICENSE) for copying permission.
