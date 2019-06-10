@@ -1,6 +1,6 @@
 # FingerprintIdentify
 
-**1. Gradle**
+**1. Gradle** 
 
     compile 'com.wei.android.lib:fingerprintidentify:1.2.6'
 
